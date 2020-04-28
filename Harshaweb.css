@@ -1,72 +1,122 @@
-/* sinhala */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: local(&#39;Abhaya Libre Regular&#39;), local(&#39;AbhayaLibre-Regular&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3tmeuGtX-Co5MNzeAOqinEQYUnXkvc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
+@media only screen and (min-width:1025px) and (max-width:1200px) {#wrapper {width:1025px;} #sidebar1-wrapper {float: right;} #footer {width:1025px;}
+#main-col {width:750px} #content {  width: 730px; padding: 10px } .separator img {width: 640px;height: auto;display: block;margin: auto; }
 }
-/* latin-ext */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: local(&#39;Abhaya Libre Regular&#39;), local(&#39;AbhayaLibre-Regular&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3tmeuGtX-Co5MNzeAOqinEQcknXkvc.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+
+@media only screen and (min-width: 992px) and (max-width:1024px) {#wrapper {	width:992px;}#sidebar1-wrapper {  float: right;  }
+.separator img {width: 640px;height: auto;display: block;margin: auto;} #footer {width:982px;} #main-col {width:710px} #content {  width: 690px; padding: 10px } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {   
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 12px;padding: 10px 10px;} 
+#wrapper {	width:765px;}
+.sajjad table{width:730px}
+#sidebar1-wrapper {  float:left;}
+#toplogo { padding-left: 150px;} 
+#topheader {  height: 125px; }
+#toplogo img {  margin-left: 80px; }
+#main-col { width:765px; margin-top:10px}
+#content {  width: 765px; padding:0}
+.separator img {width: 640px;height: auto;display: block;margin: auto; }
+.post .title {  width: 700px;font-size:14px;}
+.allahbula {width:760px}
+.dbx-group {  width: 765px;}
+#sidebar2-wrapper {  float: left;}
+#sidebar1 h2, #sidebar2 h2 { font-size:18px;}
+h1 {font-size:22px;} 
+#sidebar2-wrapper {  float: left;}
+.page-nav {background:url(https://3.bp.blogspot.com/-rRBRPWeDGHc/VVehErbI9OI/AAAAAAAATGE/Y9vJVpJ3sLk/s1600-rw/itheme-navigation-bg.png) no-repeat left center;}
+#footer {width:765px;}
+#sidebar1 table{width:765px}
+#main-col table{width:765px}
+#sidebar2 table{width:765px}
+#sidebar2 {margin:10px 5px;}
+#nav ul li a { padding: 4px 3px; }
+#gallery{width:700px;}
+#gallery .panel{width:110px;}
+#gallery .panel img{width:100px;height:100px;}
+.post .title {  width: 700px;font-size:12px;}
 }
-/* latin */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: local(&#39;Abhaya Libre Regular&#39;), local(&#39;AbhayaLibre-Regular&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3tmeuGtX-Co5MNzeAOqinEQfEnX.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+@media only screen and (min-width: 480px) and (max-width:767px){   
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 16px;padding: 8px 12px;}
+#wrapper {   width:478px;}
+.sajjad table{width:475px}
+#sidebar1-wrapper {  float:left;}
+#toplogo { padding-left: 10px;} 
+#toplogo img {  margin-left: 80px; margin-top:25px;} 
+#topheader {  height: 150px; }
+#main-col {  width:478px;}
+#content {      padding: 10px 0 0 0;  width: 478px;}
+.separator img {width: 440px;height: auto;display: block;margin: auto; }
+.post .title {  width: 400px;font-size:12px;}
+.allahbula {width:450px}
+#sidebar1-wrapper {  margin-left: 5px;  margin-right: 5px;}
+.dbx-group {  width: 470px;}
+#sidebar2-wrapper {  float: left;}
+#sidebar1 h2, #sidebar2 h2 { font-size:16px;}
+h1 {font-size:20px}
+.page-nav {background:url(https://1.bp.blogspot.com/-GVp4yCZgzUw/VR3sEUoPTFI/AAAAAAAAJlc/A__Jd18MabQ/s1600-rw/itheme-navigation-bg-455.png) no-repeat left center;}
+#footer {width:478px;}
+#sidebar1 table{width:455px}
+#main-col table{width:455px}
+#sidebar2 table{width:455px}
+#sidebar2 {margin:10px 5px;}
+#nav ul li a { padding: 4px 3px; }
+#gallery{width:400px;}
+#gallery .panel{width:110px;}
+#gallery .panel img{width:100px;height:100px;}
 }
-/* sinhala */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 500;
-  src: local(&#39;Abhaya Libre Medium&#39;), local(&#39;AbhayaLibre-Medium&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYj2rCsNZJ2oY.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
+
+@media only screen and (min-width: 320px)  and (max-width: 479px) {
+#wrapper {width:340px;} 
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 7px 10px;} 
+.mbt-pager li a span { font-size:16px;line-height:8px; } 
+.mbt-pager li a strong{font-size:18px;margin-bottom:0px;} 
+.sajjad table{width:328px}#toplogo { padding-left: 10px;}
+#toplogo img { width:250px;margin-left:35px}
+#topheader {  height: 100px;}
+#nav ul{list-style: none;margin: 0px 0px 0px 30px;padding: 0px;font: bold 9px/100% Arial,calibri,Helvetica,sans-serif;}
+#nav ul li a {  padding: 4px 3px;}
+#main-col {  width:340px;margin-top:10px}
+#content {  padding: 0px ;  width:340px;}
+.separator img {width: 310px;height:auto;display: block;margin: auto;}
+.post .title {  width:260px;font-size:12px;}
+.allahbula {width:330px}
+#sidebar1-wrapper {  margin-left: 5px;  margin-right: 5px;}
+.dbx-group {  width:330px;}
+#sidebar2-wrapper {  float: left;}
+#sidebar1 h2, #sidebar2 h2 { font-size:16px;}
+h1 {     font-size:19px;  }
+.page-nav {background:url(https://2.bp.blogspot.com/-ldPmK9cOEO0/VSNq4nCutvI/AAAAAAAAJno/NgTpIwahYHQ/s1600-rw/itheme-navigation-bg-330.png) no-repeat left center;}
+#footer {width:340px;} #main-col table{width:320px}
+#sidebar1 table{width:320px}
+#sidebar2 table{width:320px}
+#sidebar2 {margin:10px 5px;}
+#gallery{width:270px;}
+#gallery .panel{width:110px;}
+#gallery .panel img{width:100px;height:100px;}
+.social-widget {display:none}
 }
-/* latin-ext */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 500;
-  src: local(&#39;Abhaya Libre Medium&#39;), local(&#39;AbhayaLibre-Medium&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYj2rCo9ZJ2oY.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+
+@media only screen and (min-width: 240px)  and (max-width: 319px) {
+#wrapper {	width:230px;} #beakingnews{font-size:9px;height:25px;line-height:16px;} #recentpostbreaking{margin-left:85px;} #beakingnews .tulisbreaking{padding:5px 5px;} .displaypageNum a,.showpage a,.pagecurrent{font-size: 10px;padding: 3px 5px;} .mbt-pager li a span {font-size: 12px;line-height:6px;}
+.mbt-pager li a strong{font-size:16px;margin-bottom:0px;} .sajjad table{width:220px}#sidebar1-wrapper {  float:left;}#toplogo{ padding-left: 10px;}
+#toplogo img {  width:175px; padding-left: 20px;  float:left; }
+#topheader {  height:90px;} .social-widget {display:none;}
+#main-col {  width:240px;margin-top: 10px;}#content {  padding: 0px ;  width:230px;}.separator img {width: 200px;height:auto;display: block;margin: auto; }.post .title {  width:150px; }.allahbula {width:220px}#sidebar1-wrapper {  margin-left: 5px;  margin-right: 5px;}.dbx-group {  width:220px;}
+#sidebar2-wrapper {  float: left;}#sidebar1 h2, #sidebar2 h2 { font-size:11px;}
+h1 {    font-size: 16px;  } 
+.entry {       font-size: 12px;}.page-nav {background:url(https://4.bp.blogspot.com/-dR24Unw2RgQ/VVernUN-42I/AAAAAAAATGg/I5n3uO7nXxQ/s1600-rw/itheme-navigation-bg-220.png) no-repeat left center;}#footer { width:230px;}#main-col table{width:210px} #sidebar1 table{width:210px}#sidebar2 table{width:210px}#sidebar2 {margin:10px 5px;}#nav ul li a {  padding: 4px 3px;}#nav ul{list-style: none;margin: 0px 0px 0px 25px;padding: 0px;font: bold 8px/100% Lucida Sans,Verdana,calibri,Arial;}
+#gallery{width:150px;}#gallery .panel{width:110px;}#gallery .panel img{width:100px;height:100px;}
 }
-/* latin */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 500;
-  src: local(&#39;Abhaya Libre Medium&#39;), local(&#39;AbhayaLibre-Medium&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYj2rCrdZJ.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* sinhala */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 700;
-  src: local(&#39;Abhaya Libre Bold&#39;), local(&#39;AbhayaLibre-Bold&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYx2zCsNZJ2oY.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0964-0965, U+0D82-0DF4, U+200C-200D, U+25CC;
-}
-/* latin-ext */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 700;
-  src: local(&#39;Abhaya Libre Bold&#39;), local(&#39;AbhayaLibre-Bold&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYx2zCo9ZJ2oY.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: &#39;Abhaya Libre&#39;;
-  font-style: normal;
-  font-weight: 700;
-  src: local(&#39;Abhaya Libre Bold&#39;), local(&#39;AbhayaLibre-Bold&#39;), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYx2zCrdZJ.woff2) format(&#39;woff2&#39;);
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+@media screen and (max-width: 768px){  
+#menu{position:relative}   
+#menu ul{background:#085B9D;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}   
+#menu ul.menus{width:100%;position:static;padding-left:20px}  
+#menu li{display:block;float:none;width:auto; font:normal 0.8em Lucida Sans,Verdana;}   
+#menu input,#menu label{position:absolute;top:0;left:0;display:block}   
+#menu input{z-index:4}   
+#menu input:checked + label{color:white}   
+#menu input:checked ~ ul{display:block}}
+.mobile-only  { display:none !important;   }
 }
