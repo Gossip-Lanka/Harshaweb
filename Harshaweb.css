@@ -1,3 +1,197 @@
+.Navbar {visibility:hidden;display: none;}body, .body-fauxcolumn-outer {font: 16px Abhaya Libre,Noto Sans Sinhala,Lucida Sans,Verdana,calibri,Arial;padding: 0px;margin: 0px;color: #000;word-wrap: break-word;}a {color: #000000;text-decoration: none;}a:hover {color: #0099FF;}p {margin: 0px 0px 10px;}img {border: none;}ul {margin: 5px 0px 15px;padding-left: 20px;}ul li {margin: 0px;}ol {margin: 5px 0px 15px;padding-left: 20px;}ul li {margin: 0px;}form {margin: 0px;padding: 0px;}small {font-size: 90%;}
+#wrapper {width: 1240px;margin: 0px auto;position: relative; background-color:#ffffff;}
+
+/* ------------------------------------- header area  */
+
+#topheader {background: url(https://4.bp.blogspot.com/-NjbPhWl3vts/VlTBBZd-0KI/AAAAAAAAWZg/AmSy0w033qk/s1600-rw/itheme_gossip-lanka_bg.jpg) repeat center top;height: 125px;}
+
+/* site title */
+
+#toplogo {position: absolute;top: 0px;padding-left: 30px;margin: 0px;padding-top: 20px;border:none;height: auto;overflow: hidden;}
+h1 { color: #404345; font: normal 30px/100% "Lucida Sans", Arial, sans-serif;}
+h1 a, h1 a:visited {
+color: #404345;
+text-decoration: none;
+}
+h1 a:hover {
+color: #000000;
+text-decoration: none;
+}
+.description {
+position: absolute;
+top: 77px;
+left: 25px;
+color: #000000;
+font: 12px Arial, Helvetica, sans-serif;
+}
+
+/* search form */
+
+#searchform {position: absolute;top: 36px;right: 6px;height: 37px;width: 250px;}#searchform #s{height: 18px;width: 160px;margin: 2px 2px 0px 10px;padding: 2px 3px 2px 5px;color: #999999;border: none;}#searchform #searchsubmit {height: 24px;width: 24px;border: none;text-indent: -999%;line-height: 1px;margin-top: 6px;cursor: pointer;}
+
+/* ------------------------------------- main content area  */
+
+#main-col {width: 700px;float: left;}
+
+/* main menu */
+
+#nav {height: 26px;}#nav ul{list-style: none;margin: 0px 0px 0px 25px;padding: 0px;font: bold 12px/100% Lucida Sans, Verdana, Arial, calibri;}#nav ul li{margin: 0px 1px 0px 0px;padding: 0px;float: left;}#nav ul li a{padding: 5px 7px 6px 7px;text-decoration: none;color: #115795;text-shadow: 2px 5px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);display: block;}#nav li a:visited{text-decoration: none;color: #115795;}#nav li a:hover, #nav .current_page_item a{text-decoration: none;color: #ffffff;}#navsection {padding:0px;margin:0px;}#navsection h2 {display: none;}#navsection .widget, #navsection .widget-content {padding:0px; margin:0px;}
+
+/* sub menu */
+
+#subnav {background: #ecebeb;}#subnav ul {margin: 0px;padding: 3px 0px 18px 5px;list-style: none;font: 11px/100% Lucida Sans,Verdana,calibri,Arial;}#subnav li {border-right: 1px solid #D8D8D8;padding: 0px 7px;margin: 0px;float: left;}#subnav li a, #subnav li a:visited, #subnav .page_item {text-decoration: none;color: #333333;}#subnav .current_page_item a, #subnav .current_page_item a:visited {color: #3b9acc;}#subnav li a:hover {text-decoration: none;color: #3b9acc;}
+
+/* content */
+
+#content {padding: 10px;width: 680px;background: #ffffff;clear: both;overflow: hidden;}
+#content .widget {margin-bottom: 10px;}
+.post {    clear: both;    overflow: hidden;    border: solid 0px #E6E6E6;    margin-bottom:25px;  padding: 15px 15px 10px 15px;    background-color: #F9F9F9;    border-bottom: 1px dotted #ccc;  }
+.post-ad {margin: 5px 0px 25px 0px;}.post ul, .post ol {margin: 5px 0px 30px;padding-left: 30px;}.post li {margin: 0px;}.post .date {height: 50px;width: 45px;font: bold 24px Lucida Sans,Verdana,calibri,Arial;color: #000000;text-align: center;padding: 0px 2px 0 0;line-height: 100%;float: left;}.post .date span {height: 16px;display: block;font: bold 12px Lucida Sans,Verdana,calibri,Arial, Helvetica, sans-serif;color: #ffffff;text-align: center;padding-top: 0px;}.post .title {margin-left: 10px;padding-left: 45px;width: 580px;}.postdata {text-align:right;font-size: 90%;color: #999999;padding-right: 2px;padding-bottom:2px;}.postdata a, .postdata a:visited {color: #999999;text-decoration: none;}.postdata a:hover {color: #44a1d0;text-decoration: none;}.postdata .category{height: 0px;visibility: hidden;display: none;float: left;}.postdata .author{padding-left: 18px;padding-right: 10px;float: left;}
+.entry { line-height: 16px;padding: 5px;clear: both;font-size: 13px;font-family: Noto Sans Sinhala,Lucida Sans,Verdana,Calibri,arial;}
+.separator img {width: 640px;height: auto;display: block;margin: auto; }
+
+/* post title */
+
+h1 {color: #000;margin: 3px 0 2px;padding-bottom: 4px;font-size: 22px;font-weight:bold;font-family: Abhaya Libre,Noto Sans Sinhala,Lucida Sans,Verdana,calibri,Arial;border-bottom: dotted 1px #CCCCCC;}
+h1 a{color: #000000;}h1 a:visited {color: #6E6E6E;}h1 a:hover {color: #0099FF;}
+.description {position: absolute;top: 77px;left: 25px;color: #000000; font: 12px Lucida Sans, Arial, Helvetica, sans-serif;}
+
+h2 {color: #000;margin: 5px 0 5px;border-bottom: dotted 1px #CCCCCC;}
+h2 a{color: #000000;}h2 a:visited {color: #E6E6E6;}h2 a:hover {color: #0099FF;}h3 {color: #333333;text-decoration: none;}.status-message {height:21px;margin-bottom:15px;color:#ffffff;text-align:center;}/* next - previous page navigation */.page-nav {clear:both;height:21px;margin-top:15px;color:#ffffff;}.page-nav a, .page-nav a:visited {color:#ffffff;text-decoration: none;}.page-nav a:hover {color: #000000;text-decoration: none;}.previous-entries a {float: left;padding-left: 10px;margin-left: 10px;}.next-entries a {float: right;padding-right: 10px;margin-right: 10px;}/* next - previous post navigation */.post-nav {clear: both;padding-bottom: 35px;margin-top: -15px;font-size: 95%;}.post-nav a, .post-nav a:visited {color: #999999;text-decoration: none;}.post-nav a:hover {color: #000000;text-decoration: none;}.post-nav .previous a {float: left;padding-left: 20px;}.post-nav .next a {float: right;padding-right: 20px;text-align: right;}
+
+a.animate {text-align:center;border-radius: 25px;background:linear-gradient(to bottom, #0981c0 0%,#105493 100%);color: #ffffff;margin: 1px;padding: 3px 15px 3px 15px;text-align:center;font:500 20px Abhaya Libre, Noto Sans Sinhala;border-width: 0;text-decoration: none; -webkit-animation: animate_bg 1s; animation: animate_bg 1s;-webkit-animation-iteration-count: infinite; animation-iteration-count: infinite;}
+a.animate:hover {border-radius: 25px;background:linear-gradient(to bottom, #0981c0 0%,#105493 100%);color: #ffffff;margin: 1px;padding: 3px 15px 3px 15px;text-align:center;font:500 20px Abhaya Libre, Noto Sans Sinhala;border-width: 0;text-decoration: none; -webkit-animation: animate_h .5s; animation: animate_h .5s;-webkit-animation-iteration-count: infinite; animation-iteration-count: infinite;}
+
+@-webkit-keyframes animate_bg {    0%   {background:#0099FF;}    50%  {background:#99D6FF;}    100% {background:#0099FF;}}@-webkit-keyframes animate_h {    0%   {background:#ff0053;}    50%  {background:#ff9d9d;}    100% {background:#ff0053;}}
+
+#gallery{position:relative;width:600px;height:230px;background: #f1f1f1;}#gallery .belt{position:absolute;top:0;left:0;list-style-type:none}#gallery .panel{float:left;margin:20px;width:125px;height:150px;}#gallery a {  font-size:13px;font-weight:bold; color: #0099FF; }#gallery a:hover { color: #00BFFF; }#gallery .panel img{border:1px solid #888;float:left;width:120px;height:120px;background:#FFFFFF;padding:0px;}#gallery .panel img:hover{filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5}
+
+.responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.social-widget { margin-right:10px}
+
+.social-profiles-widget ul{list-style:none;float: RIGHT;}
+.social-profiles-widget ul li{
+list-style:none;
+margin:0px;
+display:inline;
+}
+
+
+.recentnewstitles {padding-bottom:3px;margin-left:3px;margin-bottom:3px;border-bottom: 1px dotted #cccccc;}
+
+#recentnews a {font-family:Abhaya Libre, Lucida Sans, Verdana; font-size: 19px ;color: #0063b2;text-transform:capitalize;}
+#recentnews a:hover{color: #0099FF;}
+#recentnews a:visited {color: #80c7ff;}
+
+.imager img{max-width:100% !important;height:auto;display:block;}
+.play-button{background:url(https://3.bp.blogspot.com/-ClBHcumllp4/Vj9ZvT2XNrI/AAAAAAAAWTg/JxjR6F6uy8s/s1600-rw/play-button-32px.png) no-repeat right bottom;cursor:pointer;height:55px;position:absolute;width:77px;}
+.play-button:hover{filter:alpha(opacity=50);opacity:.5} 
+
+#blog-pager{clear:both;margin:5px auto;text-align:center; padding: 5px;}  
+.blog-pager {background: none;}  
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 16px;padding: 10px 15px;margin-right:5px; color: #666; background-color:#eee;}  
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#359BED;text-decoration:none;color: #fff;}  
+#blog-pager .pagecurrent{font-weight:bold;color: #fff;background:#359BED;}  
+.showpageOf{display:none!important}  
+#blog-pager .pages{border:none;}  
+
+.mbt-pager { border-top: 2px dashed #ddd; border-bottom: 2px dashed #ddd;  margin: 15px 0 10px 0;   overflow:hidden; padding:0px;}      
+.mbt-pager li.next { height:114px; float: right; padding:0px; background:none; margin:0px;}       
+.mbt-pager li.next a { padding-left: 24px; }
+.mbt-pager li.previous { height:114px; margin:0px -2px 0px 0px; float: left;  border-right:1px solid #ddd; padding:0px; background:none;}       
+.mbt-pager li.previous a { padding-right: 5px;  }
+.mbt-pager li.next:hover, .mbt-pager li.previous:hover  {background:#0981c0; }    
+.mbt-pager li { width: 50%; display: inline; float: left; text-align: center; }      
+.mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 10px 10px 10px; outline:none; text-decoration:none;}
+.mbt-pager li i { color: #ccc; font-size: 18px; }
+.mbt-pager li a strong { display: block; font-size: 24px; color: #666666; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; font-family:Abhaya Libre,Lucida Sans,arial; margin-bottom:5px;}
+.mbt-pager li a span { font-size: 18px; color: #000;  font-family:Abhaya Libre,Lucida Sans, arial; margin:0px;}      
+.mbt-pager li a:hover span, .mbt-pager li a:hover strong,.mbt-pager li a:hover i { color: #ffffff; }       
+.mbt-pager li.previous i { float:left; margin-top:15%; margin-left:5%; }       
+.mbt-pager li.next i { float: right; margin-top: 15%; margin-right: 5%; }
+.mbt-pager li.next i, .mbt-pager li.previous i , .mbt-pager li.next,  .mbt-pager li.previous{       
+-webkit-transition-property: background color; -webkit-transition-duration: 0.4s; -webkit-transition-timing-function: ease-out;       
+-moz-transition-property: background color; -moz-transition-duration: 0.4s; -moz-transition-timing-function: ease-out;       
+-o-transition-property: background color; -o-transition-duration: 0.4s; -o-transition-timing-function: ease-out;       
+transition-property: background color; transition-duration: 0.4s; transition-timing-function: ease-out; }
+.fa-chevron-right {padding-right:0px;}
+
+
+/* ------------------------------------- footer area  */
+#footer {font-size: 100%;background: linear-gradient(to bottom, #105493 0%,#0981c0 100%);clear: both;color: #EEEEEE;font: 11px Lucida Sans,Verdana, arial;letter-spacing: 0;margin: auto;padding-top: 50px;text-align: center;text-transform: none;width: 1240px;height: 60px;margin-bottom: -15px;}
+#footer a, #footer a:visited {text-decoration: none; color: #FFFFFF;}
+#footer a:hover {color:#ccc;}
+/* sidebar */
+#sidebar1-wrapper, #sidebar2-wrapper {width: 270px;color: #666666; line-height: 16px; margin-top:5px; padding:0px 0px 0px; position:relative; display:block;}
+#sidebar1-wrapper {float:left;margin-left:0px;}
+#sidebar2-wrapper {float:right; padding-right:0px;}
+#sidebar1, #sidebar2 {margin:0;padding:0;}
+#sidebar1 p, #sidebar2 p {margin: 0px 0px 15px;}
+#sidebar1 h2, #sidebar2 h2 {font: bold 14px/100% Lucida Sans,Verdana, calibri, Arial;color: #ffffff; border-bottom:none; text-shadow: 2px 5px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);position:relative;display:block;position:relative;margin-top:5px;padding: 10px 24px 7px 10px;
+}
+
+/*.backlinks{font-size:12px;padding-top:10px;padding-bottom:5px;border-bottom: dotted 1px #CCCCCC;}*/
+.fs14{font-size:16px;color:#000000}
+.footerdesc{font-size:12px; color:#666666; padding-top:10px;border-top: dotted 1px #CCCCCC;}
+.reactiontext{text-align:center;font: Bold 24px Abhaya Libre}
+.firstpage{text-align:center;padding-top:20px;padding-bottom:5px;}
+.fbline1{text-align:center;font: 600 22px Abhaya Libre;color:#ff0000;}
+.fbline2{text-align:center;font: 700 26px Abhaya Libre;color:#0099FF;margin-bottom:5px}
+.readmore{padding-top:15px;padding-bottom:5px;text-align:right}
+.fblikebox{text-align:center}
+.separator{clear: both; text-align: center}
+.YT{text-align:center; border-top: dotted 1px #CCCCCC; margin-top:15px; padding-top:10px; 
+     border-bottom: dotted 1px #CCCCCC; margin-bottom:15px; padding-bottom:10px}
+.YTtext{text-align:center; font: 600 26px Abhaya Libre; color:#0099FF;  margin-bottom:10px }
+
+
+#sidebar1 h2 a, #sidebar1 h2 a:visited, #sidebar2 h2 a, #sidebar2 h2 a:visited {color: #666666;}
+#sidebar1 h2 img, #sidebar2 h2 img {vertical-align: middle;}
+#sidebar1 a, #sidebar2 a {color: #000000;}
+#sidebar1 a:visited, #sidebar2 a:visited {color: #000000;}
+#sidebar1 a:hover, #sidebar1 a:focus, #sidebar1 a:active, #sidebar2 a:hover, 
+#sidebar2 a:focus, #sidebar2 a:active {color:#0099FF;}
+#sidebar1 ul, #sidebar2 ul {list-style: none;margin: 0 ;padding: 0 ;}
+#sidebar1 ul li, #sidebar2 ul li {padding-left: 0px ;}
+#sidebar1 ul li ul li, #sidebar2 ul li ul li {padding-left: 12px ;}
+#sidebar2 .trending {font-size:18px;}
+#sidebar2 .mobilesb {font-size:16px;}
+.trendheader {font: bold 14px/100% Lucida Sans,Verdana, calibri, Arial;color: #ffffff; border-bottom:none; text-shadow: 2px 5px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);position:relative;display:block;position:relative;margin-top:5px;padding: 10px 24px 7px 10px;background: linear-gradient(to bottom, #0981c0 0%,#105493 100%);}
+.trendtitlesp1{padding-left:180px;font-size:17px;font-family: Abhaya Libre, Lucida Sans,Verdana,calibri,Arial}
+.trendtitlesp2{font-size:16px;font-family: Abhaya Libre, Lucida Sans,Verdana,calibri,Arial}
+.topnewstitle{font-size:18px;font-family: Abhaya Libre, Noto sans sinhala, Lucida Sans,Verdana,calibri,Arial;padding: 0 0 5px 0}
+
+.PopularPosts ul {
+    margin: 5px 0px 5px;
+    padding-left: 0px;
+}
+
+.PopularPosts .widget-content ul li {
+	    padding: 5px 0 0 0;
+}
+
+.latestnewsmid { color:#c30000; font-size:24px;  margin:10px 10px 10px 5px; text-decoration-line: underline;}
+
+#sidebar1 .widget-content, #sidebar2 .widget-content {margin-bottom:15px;font-size:15px;font-family:Abhaya Libre, Lucida Sans,Verdana,calibri,Arial; padding: 3px 10px 5px 10px; overflow: hidden; background:#ffffff; box-shadow: 0 0 1px #ccc;} {position:relative;display:block;margin:0;padding:0;border:none;clear: both;}/* alignments */.center {text-align: center;}img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}.left {float: left;}img.left, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}.right {float: right;}img.right, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}.clear {clear:both;}hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;}.hidden {clear: both;visibility: hidden;}/****************************************************************Docking Boxes core CSS: YOU MUST NOT CHANGE OR OVERRIDE THESE*****************************************************************/.dbx-clone {position:absolute;visibility:hidden;}.dbx-clone, .dbx-clone .dbx-handle-cursor {cursor:move !important;}.dbx-dummy {display:block;width:0;height:0;overflow:hidden;}.dbx-group, .dbx-box, .dbx-handle {position:relative;display:block;}/****************************************************************avoid padding, margins or borders on dbx-box,to reduce visual discrepancies between it and the clone.overall, dbx-box is best left as visually unstyled as possible*****************************************************************/.dbx-box {margin:0;padding:0;border:none;clear: both;}/****************************************************************otherwise, do what you like :)*****************************************************************//* group container(s) */.dbx-group {width:270px;padding:0 0px 10px;}* html .dbx-group {width: 270px;padding-bottom:0;}/* handles */.dbx-handle {position:relative;margin:0;padding: 16px 24px 7px 10px;}* html .dbx-handle {width: 176px;}/* handle cursors are in a class of their ownso they only get applied if the script is supported */.dbx-handle-cursor {cursor:move;}/* toggle images */a.dbx-toggle, a.dbx-toggle:visited {display:block;width:0px;height:0px;overflow:hidden;position:absolute;top:12px;right:3px;text-indent:-50px;text-decoration:none;}a.dbx-toggle-open, a.dbx-toggle-open:visited {background-position:0 0;}a.dbx-toggle-closed, a.dbx-toggle-closed:visited {background-position:0 -20px;}a.dbx-toggle-hilite-open, a.dbx-toggle-hilite-open:visited {background-position:-20px 0;}a.dbx-toggle-hilite-closed, a.dbx-toggle-hilite-closed:visited {background-position:-20px -20px;}/* keyboard navigation tooltip */.dbx-tooltip {display:block;position:absolute;margin:36px 0 0 125px;width:185px;border:1px solid #000;background:#ffd;color:#000;font:normal normal normal 0.85em Lucida Sans,Verdana,calibri, arial;padding:2px 4px 3px 5px;text-align:left;}* html .dbx-tooltip { width:210px; }/* use CSS2 system colors in CSS2 browsersbut not safari, which doesn't support them */*[class="dbx-tooltip"]:lang(en) {border-color:InfoText;background:InfoBackground;color:InfoText;font:small-caption;font-weight:normal;}/* inner content area */.dbx-content {margin: 0;padding: 5px 10px 9px 10px;overflow: hidden;}/* toggle state of inner content area */.dbx-box-closed .dbx-content {display:block;height:4px;padding:0;overflow:hidden;}.dbx-box-closed .dbx-content * {display:none;}/* additional clone styles */.dbx-clone {opacity:0.8;-moz-opacity:0.8;-khtml-opacity:0.8;filter:alpha(opacity=80);}body, .body-fauxcolumn-outer {background: #ffffff url() repeat-x;}#page {  background: #ffffff;}.post .date {background: url(https://4.bp.blogspot.com/-vAnLb5fjDvA/Vhr_6tIG7BI/AAAAAAAAWIk/RYQhiRPoR8U/s1600-rw/gossip-lankanews-calendar.png) no-repeat;} .page-nav {background:url(https://3.bp.blogspot.com/-LFlmd3Sr730/VD2kszeh-OI/AAAAAAAARGM/swhzuf_P6sw/s1600-rw/itheme-navigation-bg.gif) no-repeat left center;}#sidebar1 h2, #sidebar2 h2 {  background: linear-gradient(to bottom, #0981c0 0%,#105493 100%);}
+
+/* ------------------------------------- menu*/
+body {margin: 0px;}#menu{color: #ffffff;height: 36px;background: linear-gradient(to bottom, #105493 0%,#0981c0 100%);margin: 0px;}#menu ul,#menu li{margin:0 auto;padding:0 0;list-style:none}#menu ul{list-style: none; margin: 0; padding: 0;}#menu li{float: left; display: inline; position: relative;}#menu a{display: block;line-height: 36px;padding: 0 20px;color: #ffffff;font-size:14px;font-weight: bold;text-transform: uppercase;border-right: 0px solid #3D3D3D;font-family: Lucida Sans,Verdana, calibri, arial;}#menu li a:hover{color: #E0E0E0;-webkit-transition: all .1s ease-in-out;-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;transition: all .1s ease-in-out;background: linear-gradient(to bottom, #0488CA 0%, #0488CA 100%);}#menu input{display:none;margin:0 0;padding:0 0;width:90px;height:36px;opacity:0;cursor:pointer}#menu label{font:bold 30px Lucida Sans,Verdana, calibri, Arial;display:none;width:35px;height:36px;line-height:36px;text-align:center}#menu label span{font-size:16px;position:absolute;left:35px}#menu ul.menus{height: auto;overflow: hidden;width: 170px;background: #50B7DC;position: absolute;z-index: 99;display: none;}#menu ul.menus li{display: block;width: 100%;font:normal 0.8em Arial;text-transform: none;text-shadow: none;border-bottom: 1px dashed #31AFDB;}#menu ul.menus a{color: #FFFFFF;line-height: 35px;}#menu li:hover ul.menus{display:block}#menu ul.menus a:hover{background: #5FC6EB;color: #FFFFFF;-webkit-transition: all .1s ease-in-out;-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;transition: all .1s ease-in-out;}
+
+
 @media only screen and (min-width:1025px) and (max-width:1200px) {#wrapper {width:1025px;} #sidebar1-wrapper {float: right;} #footer {width:1025px;}
 #main-col {width:750px} #content {  width: 730px; padding: 10px } .separator img {width: 640px;height: auto;display: block;margin: auto; }
 }
