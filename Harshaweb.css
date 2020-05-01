@@ -313,24 +313,3 @@ h1 {    font-size: 16px;  }
 #menu input:checked ~ ul{display:block}}
 .mobile-only  { display:none !important;   }
 }
-
-@font-face {
-  font-family: &#39;Noto Sans Sinhala&#39;;
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.eot);
-  src: url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.eot?#iefix) format(&#39;embedded-opentype&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff2) format(&#39;woff2&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff) format(&#39;woff&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.ttf) format(&#39;truetype&#39;);
-}
-@font-face {
-  font-family: &#39;Noto Sans Sinhala&#39;;
-  font-style: normal;
-  font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Bold.eot);
-  src: url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Bold.eot?#iefix) format(&#39;embedded-opentype&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Bold.woff2) format(&#39;woff2&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Bold.woff) format(&#39;woff&#39;),
-       url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Bold.ttf) format(&#39;truetype&#39;);
-}
