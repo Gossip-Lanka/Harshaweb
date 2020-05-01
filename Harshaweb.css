@@ -102,8 +102,9 @@ display:inline;
 .play-button:hover{filter:alpha(opacity=50);opacity:.5} 
 
 #blog-pager{clear:both;margin:5px auto;text-align:center; padding: 5px;}  
+
 .blog-pager {background: none;}  
-.displaypageNum a,.showpage a,.pagecurrent{font-size: 16px;padding: 10px 15px;margin-right:5px; color: #666; background-color:#eee;}  
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 20px;padding: 3px 20px;margin-right:10px; color: #666; background-color:#eee;}  
 .displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#359BED;text-decoration:none;color: #fff;}  
 #blog-pager .pagecurrent{font-weight:bold;color: #fff;background:#359BED;}  
 .showpageOf{display:none!important}  
@@ -200,7 +201,6 @@ body {margin: 0px;}#menu{color: #ffffff;height: 36px;background: linear-gradient
 .separator img {width: 640px;height: auto;display: block;margin: auto;} #footer {width:982px;} #main-col {width:710px} #content {  width: 690px; padding: 10px } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {   
-.displaypageNum a,.showpage a,.pagecurrent{font-size: 12px;padding: 10px 10px;} 
 #wrapper {	width:765px;}
 .sajjad table{width:730px}
 #sidebar1-wrapper {  float:left;}
@@ -215,7 +215,6 @@ body {margin: 0px;}#menu{color: #ffffff;height: 36px;background: linear-gradient
 .dbx-group {  width: 765px;}
 #sidebar2-wrapper {  float: left;}
 #sidebar1 h2, #sidebar2 h2 { font-size:18px;}
-h1 {font-size:22px;} 
 #sidebar2-wrapper {  float: left;}
 .page-nav {background:url(https://3.bp.blogspot.com/-rRBRPWeDGHc/VVehErbI9OI/AAAAAAAATGE/Y9vJVpJ3sLk/s1600-rw/itheme-navigation-bg.png) no-repeat left center;}
 #footer {width:765px;}
@@ -231,7 +230,7 @@ h1 {font-size:22px;}
 }
 
 @media only screen and (min-width: 480px) and (max-width:767px){   
-.displaypageNum a,.showpage a,.pagecurrent{font-size: 16px;padding: 8px 12px;}
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 16px;padding: 3px 14px;}
 #wrapper {   width:478px;}
 .sajjad table{width:475px}
 #sidebar1-wrapper {  float:left;}
@@ -262,7 +261,7 @@ h1 {font-size:20px}
 
 @media only screen and (min-width: 320px)  and (max-width: 479px) {
 #wrapper {width:340px;} 
-.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 7px 10px;} 
+.displaypageNum a,.showpage a,.pagecurrent{font-size: 14px;padding: 2px 9px;margin-right:5px;} 
 .mbt-pager li a span { font-size:16px;line-height:8px; } 
 .mbt-pager li a strong{font-size:18px;margin-bottom:0px;} 
 .sajjad table{width:328px}#toplogo { padding-left: 10px;}
@@ -279,7 +278,7 @@ h1 {font-size:20px}
 .dbx-group {  width:330px;}
 #sidebar2-wrapper {  float: left;}
 #sidebar1 h2, #sidebar2 h2 { font-size:16px;}
-h1 {     font-size:19px;  }
+h1 {     font-size:20px  }
 .page-nav {background:url(https://2.bp.blogspot.com/-ldPmK9cOEO0/VSNq4nCutvI/AAAAAAAAJno/NgTpIwahYHQ/s1600-rw/itheme-navigation-bg-330.png) no-repeat left center;}
 #footer {width:340px;} #main-col table{width:320px}
 #sidebar1 table{width:320px}
@@ -292,7 +291,7 @@ h1 {     font-size:19px;  }
 }
 
 @media only screen and (min-width: 240px)  and (max-width: 319px) {
-#wrapper {	width:230px;} #beakingnews{font-size:9px;height:25px;line-height:16px;} #recentpostbreaking{margin-left:85px;} #beakingnews .tulisbreaking{padding:5px 5px;} .displaypageNum a,.showpage a,.pagecurrent{font-size: 10px;padding: 3px 5px;} .mbt-pager li a span {font-size: 12px;line-height:6px;}
+#wrapper {	width:230px;} #beakingnews{font-size:9px;height:25px;line-height:16px;} #recentpostbreaking{margin-left:85px;} #beakingnews .tulisbreaking{padding:5px 5px;} .displaypageNum a,.showpage a,.pagecurrent{font-size: 10px;padding: 1px 4px;margin-right:5px;} .mbt-pager li a span {font-size: 12px;line-height:6px;}
 .mbt-pager li a strong{font-size:16px;margin-bottom:0px;} .sajjad table{width:220px}#sidebar1-wrapper {  float:left;}#toplogo{ padding-left: 10px;}
 #toplogo img {  width:175px; padding-left: 20px;  float:left; }
 #topheader {  height:90px;} .social-widget {display:none;}
