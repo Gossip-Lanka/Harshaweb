@@ -5,4 +5,4 @@ $('img').each(function(){
   //$img.attr('title', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));     
 	$img.attr('alt', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));   	
 		}); 
-	}); 
+}); 
