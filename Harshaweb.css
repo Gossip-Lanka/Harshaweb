@@ -99,12 +99,6 @@ line-height: 2;
 }
 .social-widget ul li a{color:#ffffff;}
 
-.recentnewstitles {padding-bottom:3px;margin-left:3px;margin-bottom:3px;border-bottom: 1px dotted #cccccc;}
-
-#recentnews a {font-family:Abhaya Libre, Lucida Sans, Verdana; font-size: 19px ;color: #0063b2;text-transform:capitalize;}
-#recentnews a:hover{color: #0099FF;}
-#recentnews a:visited {color: #80c7ff;}
-
 .imager img{max-width:100% !important;height:auto;display:block;}
 .play-button{background:url(https://3.bp.blogspot.com/-ClBHcumllp4/Vj9ZvT2XNrI/AAAAAAAAWTg/JxjR6F6uy8s/s1600-rw/play-button-32px.png) no-repeat right bottom;cursor:pointer;height:55px;position:absolute;width:77px;}
 .play-button:hover{filter:alpha(opacity=50);opacity:.5} 
@@ -196,6 +190,9 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 .latestnewsmid { color:#c30000; font-size:24px;  margin:10px 10px 10px 5px; text-decoration-line: underline;}
 .latestnewsmid a { color:#c30000; } 
 
+#recentnewstitles a {font-family:Abhaya Libre,Lucida Sans,Verdana; font-size: 19px; color: #0063b2;text-transform:capitalize;padding-bottom:3px;margin-left:3px;margin-bottom:3px;border-bottom: 1px dotted #cccccc;}
+#recentnewstitles a:hover{color: #0099FF;}
+#recentnewstitles a:visited {color: #80c7ff;}
 
 /* breadcrumb */
 ol#breadcrumb{font-family:Abhaya Libre, Noto sans sinhala;font-size:95%;padding: 10px 20px 5px 20px;text-align: left;color:#000;margin-top: 10px;background:-webkit-linear-gradient(top,#e6e6e6,#f9f9f9);background:-moz-linear-gradient(top,#e6e6e6,#f9f9f9);background:-ms-linear-gradient(top,#e6e6e6,#f9f9f9);background:-o-linear-gradient(top,#e6e6e6,#f9f9f9);background:linear-gradient(top,#e6e6e6,#f9f9f9)}
