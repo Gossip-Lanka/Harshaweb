@@ -89,16 +89,6 @@ a.animate:hover {border-radius: 25px;background:linear-gradient(to bottom, #0981
     position:absolute;
 }
 
-.social-widget { margin-right:10px}
-
-.social-widget ul{list-style:none;float: right; margin: 10px 0 5px 5px;}
-.social-widget ul li{
-list-style:none;
-display:inline;
-line-height: 2;
-}
-.social-widget ul li a{color:#ffffff;}
-
 .imager img{max-width:100% !important;height:auto;display:block;}
 .play-button{background:url(https://3.bp.blogspot.com/-ClBHcumllp4/Vj9ZvT2XNrI/AAAAAAAAWTg/JxjR6F6uy8s/s1600-rw/play-button-32px.png) no-repeat right bottom;cursor:pointer;height:55px;position:absolute;width:77px;}
 .play-button:hover{filter:alpha(opacity=50);opacity:.5} 
@@ -209,6 +199,19 @@ ol#breadcrumb{font-family:Abhaya Libre, Noto sans sinhala;font-size:95%;padding:
     content: none;
 }
 
+.social-widget { margin-right:10px}
+.social-widget ul {list-style:none;float: right; margin: 10px 0 5px 5px;}
+.social-widget ul li{
+list-style:none;
+display:inline;
+line-height: 2;
+color: #ffffff;
+}
+.social-widget ul li a{color:#ffffff;}
+
+#tamilfont {font-size:12px}
+
+
 #sidebar1 .widget-content, #sidebar2 .widget-content {margin-bottom:15px;font-size:15px;font-family:Abhaya Libre, Lucida Sans,Verdana,calibri,Arial; padding: 3px 10px 5px 10px; overflow: hidden; background:#ffffff; box-shadow: 0 0 1px #ccc;} {position:relative;display:block;margin:0;padding:0;border:none;clear: both;}/* alignments */.center {text-align: center;}img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}.left {float: left;}img.left, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}.right {float: right;}img.right, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}.clear {clear:both;}hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;}.hidden {clear: both;visibility: hidden;}/****************************************************************Docking Boxes core CSS: YOU MUST NOT CHANGE OR OVERRIDE THESE*****************************************************************/.dbx-clone {position:absolute;visibility:hidden;}.dbx-clone, .dbx-clone .dbx-handle-cursor {cursor:move !important;}.dbx-dummy {display:block;width:0;height:0;overflow:hidden;}.dbx-group, .dbx-box, .dbx-handle {position:relative;display:block;}/****************************************************************avoid padding, margins or borders on dbx-box,to reduce visual discrepancies between it and the clone.overall, dbx-box is best left as visually unstyled as possible*****************************************************************/.dbx-box {margin:0;padding:0;border:none;clear: both;}/****************************************************************otherwise, do what you like :)*****************************************************************//* group container(s) */.dbx-group {width:270px;padding:0 0px 10px;}* html .dbx-group {width: 270px;padding-bottom:0;}/* handles */.dbx-handle {position:relative;margin:0;padding: 16px 24px 7px 10px;}* html .dbx-handle {width: 176px;}/* handle cursors are in a class of their ownso they only get applied if the script is supported */.dbx-handle-cursor {cursor:move;}/* toggle images */a.dbx-toggle, a.dbx-toggle:visited {display:block;width:0px;height:0px;overflow:hidden;position:absolute;top:12px;right:3px;text-indent:-50px;text-decoration:none;}a.dbx-toggle-open, a.dbx-toggle-open:visited {background-position:0 0;}a.dbx-toggle-closed, a.dbx-toggle-closed:visited {background-position:0 -20px;}a.dbx-toggle-hilite-open, a.dbx-toggle-hilite-open:visited {background-position:-20px 0;}a.dbx-toggle-hilite-closed, a.dbx-toggle-hilite-closed:visited {background-position:-20px -20px;}/* keyboard navigation tooltip */.dbx-tooltip {display:block;position:absolute;margin:36px 0 0 125px;width:185px;border:1px solid #000;background:#ffd;color:#000;font:normal normal normal 0.85em Lucida Sans,Verdana,calibri, arial;padding:2px 4px 3px 5px;text-align:left;}* html .dbx-tooltip { width:210px; }/* use CSS2 system colors in CSS2 browsersbut not safari, which doesn't support them */*[class="dbx-tooltip"]:lang(en) {border-color:InfoText;background:InfoBackground;color:InfoText;font:small-caption;font-weight:normal;}/* inner content area */.dbx-content {margin: 0;padding: 5px 10px 9px 10px;overflow: hidden;}/* toggle state of inner content area */.dbx-box-closed .dbx-content {display:block;height:4px;padding:0;overflow:hidden;}.dbx-box-closed .dbx-content * {display:none;}/* additional clone styles */.dbx-clone {opacity:0.8;-moz-opacity:0.8;-khtml-opacity:0.8;filter:alpha(opacity=80);}body, .body-fauxcolumn-outer {background: #ffffff url() repeat-x;}#page {  background: #ffffff;}.post .date {background: url(https://4.bp.blogspot.com/-vAnLb5fjDvA/Vhr_6tIG7BI/AAAAAAAAWIk/RYQhiRPoR8U/s1600-rw/gossip-lankanews-calendar.png) no-repeat;} .page-nav {background:url(https://3.bp.blogspot.com/-LFlmd3Sr730/VD2kszeh-OI/AAAAAAAARGM/swhzuf_P6sw/s1600-rw/itheme-navigation-bg.gif) no-repeat left center;}#sidebar1 h2, #sidebar2 h2 {  background: linear-gradient(to bottom, #0981c0 0%,#105493 100%);}
 
 /* ------------------------------------- menu*/
@@ -232,6 +235,7 @@ body {margin: 0px;}#menu{color: #ffffff;height: 36px;background: linear-gradient
 .social-widget ul{list-style:none;float: right;margin:110px 0 0 ;}
 .social-widget ul li{padding-left:4px;font-size:15px}
 .social-widget ul img{width:25px}
+#tamilfont {font-size:11px}
 #main-col { width:765px; margin-top:10px}
 #content {  width: 765px; padding:0}
 .separator img {width: 720px;height: auto;display: block;margin: auto; }
@@ -265,6 +269,7 @@ body {margin: 0px;}#menu{color: #ffffff;height: 36px;background: linear-gradient
 .social-widget ul{list-style:none;float: right;margin:110px 0 0 ;}
 .social-widget ul li{padding-left:4px;font-size:15px}
 .social-widget ul img{width:25px}
+#tamilfont {font-size:11px}
 #main-col {  width:478px;}
 #content {      padding: 10px 0 0 0;  width: 478px;}
 .separator img {width: 440px;height: auto;display: block;margin: auto; }
@@ -302,6 +307,7 @@ ol#breadcrumb { font-size: 90% }
 .social-widget ul{list-style:none;float: right;margin:95px 0 0 ;}
 .social-widget ul li{padding-left:2px;font-size:14px}
 .social-widget ul img{width:25px}
+#tamilfont {font-size:10px}
 #nav ul{list-style: none;margin: 0px 0px 0px 30px;padding: 0px;font: bold 9px/100% Arial,calibri,Helvetica,sans-serif;}
 #nav ul li a {  padding: 4px 3px;}
 #main-col {  width:340px;margin-top:5px}
