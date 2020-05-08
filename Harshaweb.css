@@ -1,3 +1,14 @@
+a {
+color: #205e7d;
+text-decoration: none;
+}
+a:visited {
+color: #5EAFD7;
+}
+a:hover {
+text-decoration: underline;
+}
+
 .Navbar {visibility:hidden;display: none;}body, .body-fauxcolumn-outer {font: 16px Abhaya Libre,Noto Sans Sinhala,Lucida Sans,Verdana,calibri,Arial;padding: 0px;margin: 0px;color: #000;word-wrap: break-word;}a {color: #000000;text-decoration: none;}a:hover {color: #0099FF;}p {margin: 0px 0px 10px;}img {border: none;}ul {margin: 5px;padding-left: 10px;}ul li {margin: 0px;}ol {margin:0;padding-left: 20px;}ul li {margin: 0px;}form {margin: 0px;padding: 0px;}small {font-size: 90%;}
 #wrapper {width: 1240px;margin: 0px auto;position: relative; background-color:#ffffff;}
 
@@ -182,7 +193,6 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 
 .recentnewstitles {font-family:Abhaya Libre,Lucida Sans,Verdana; font-size: 19px; margin-left:10px;margin-bottom:3px;border-bottom: 1px dotted #cccccc;line-height: 26px;}
 .recentnewstitles a {color:#0063b2;}
-.recentnewstitles a:hover{ text-decoration: underline;}
 .recentnewstitles a:visited {color: #80c7ff;}
 
 /* breadcrumb */
