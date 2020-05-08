@@ -365,6 +365,3 @@ ol#breadcrumb { font-size: 70% }
 #menu input:checked ~ ul{display:block}}
 .mobile-only  { display:none !important;   }
 }
-
-@import url(https://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
-@import url(https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600,700);
