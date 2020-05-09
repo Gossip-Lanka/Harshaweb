@@ -146,6 +146,8 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 #sidebar1 p, #sidebar2 p {margin: 0px 0px 15px;}
 #sidebar1 h2, #sidebar2 h2 {font: bold 14px/100% Lucida Sans,Verdana, calibri, Arial;color: #ffffff; border-bottom:none; text-shadow: 2px 5px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);position:relative;display:block;position:relative;margin-top:5px;padding: 10px 24px 7px 10px;
 }
+#sidebar1 td a, #sidebar2 td a{padding-right: 4px}
+
 
 /*.backlinks{font-size:12px;padding-top:10px;padding-bottom:5px;border-bottom: dotted 1px #CCCCCC;}*/
 .fs14{font-size:16px;color:#000000}
@@ -174,7 +176,7 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 #sidebar2 .trending {font-size:18px;}
 #sidebar2 .mobilesb {font-size:16px;}
 .trendheader {font: bold 14px/100% Lucida Sans,Verdana, calibri, Arial;color: #ffffff; border-bottom:none; text-shadow: 2px 5px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);position:relative;display:block;position:relative;margin-top:5px;padding: 10px 24px 7px 10px;background: linear-gradient(to bottom, #0981c0 0%,#105493 100%);}
-.trendtitlesp1{padding-left:180px;font-size:17px;font-family: Abhaya Libre, Lucida Sans,Verdana,calibri,Arial}
+.trendtitlesp1{margin-left:180px;font-size:17px;font-family: Abhaya Libre, Lucida Sans,Verdana,calibri,Arial}
 .trendtitlesp2{font-size:16px;font-family: Abhaya Libre, Lucida Sans,Verdana,calibri,Arial}
 .topnewstitle{font-size:18px;font-family: Abhaya Libre, Noto sans sinhala, Lucida Sans,Verdana,calibri,Arial;padding: 0 0 5px 0}
 
@@ -186,6 +188,7 @@ transition-property: background color; transition-duration: 0.4s; transition-tim
 .PopularPosts .widget-content ul li {
 	    padding: 5px 0 0 0;
 }
+
 
 .latestnewsmid { color:#c30000; font-size:24px;  margin:10px 10px 10px 5px; text-decoration-line: underline;}
 .latestnewsmid a { color:#c30000; } 
